@@ -37,49 +37,35 @@ void main()
 
     case '-':
     result = a - b;
-    printf("%d + %d = %d", a,b ,result);
+    printf("%d - %d = %d", a,b ,result);
     break;
 
     case '*':
     result = a * b;
-    printf("%d + %d = %d", a,b ,result);
+    printf("%d * %d = %d", a,b ,result);
     break;
 
     case '/':
     result = a / b;
-    printf("%d + %d = %d", a,b ,result);
+    printf("%d / %d = %d", a,b ,result);
     break;
 
     case '^':
-    result = double pow(double a, double b);
-    printf("%f of %f is %f", a,b ,result);
+    result = pow(a,b);
+    printf("Answer is %d", result);
     break;
 
     case 'e':
     exit(0);
+    break;
 
     case 's':
     result = sqrt(a);
     printf("The square root is: %d", result);
+    break;
 
-    }
+    }}
 
-
-
-
-
-
- //printf("The result is %d",result);
-
-    while (1) {
-        if(strcmp(sqrt,selection) == 0){
-        printf("MATCHED!");
-       break;
-
-
-    }
-    }
-}
 
 
 
